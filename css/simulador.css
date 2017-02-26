@@ -1,0 +1,271 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+ font-family: Rounded;
+ src: url("../fonts/Rounded.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: Rounded;
+ src: url("../fonts/Rounded.ttf") /* TTF file for CSS3 browsers */
+}
+body {
+	
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	color: #505656;
+    font-family: "Helvetica Neue",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.125;
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	padding-right: 15px;
+	padding-left: 15px; 
+    margin-bottom: 13px;
+    margin-top: 26px;
+}
+
+
+h3{
+	background: rgba(0, 0, 0, 0) url("../images/lineagris.jpg") no-repeat scroll left bottom;
+    color: #505656;
+    font-family: Rounded,"Helvetica Neue",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    padding-bottom: 7px;
+
+}
+
+a img { 
+	border: none;
+}
+a {
+    color: #039be5;
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+}
+a:hover, a:focus, a:active {
+    color: #026899;
+    outline: medium none;
+    text-decoration: none;
+}
+a:focus {
+    outline: thin dotted;
+    outline-offset: -2px;
+}
+.container {
+	width: 960px;
+	background: #FFF;
+	margin: 0 auto; 
+}
+
+.header {
+	background-color: #fff;
+	background-image: url("../images/simuladorcabecera.jpg");
+	height: 207px;
+	width: 100%;
+}
+
+.content {
+
+	padding: 10px 0;
+}
+
+.footer {
+	padding: 10px 0;
+	background: #3d4045 none repeat scroll 0 0;
+    color: #96a1a3;
+}
+.footer-container {
+    color: #96a1a3;
+	width: 960px;
+	margin: 0 auto; 
+}
+
+.footer a {
+    border-bottom: 1px solid #96a1a3;
+    color: #96a1a3;
+}
+/* Jun-2016 */
+/* Añadido para el simulador */
+/*  */
+
+.txtverdanasmall {
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000
+}
+.txtverdanasmallderecha {
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align:right;
+}
+.txtverdanasmallverde {
+	font-size: 12px;
+	font-weight: normal;
+	color: #339933
+}
+.txtverdanasmallderechaverde {
+	font-size: 12px;
+	font-weight: normal;
+	color: #339933;
+	text-decoration: none;
+	text-align:right;
+}
+
+
+.txtsmallbold {
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+.titular {
+	font-size: 13px;
+	font-weight: bold;
+	color: #006699;
+}
+.titular_EN {
+	font-size: 13px;
+	font-weight: bold;
+	color:gray;
+}
+.titularnegro {
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none
+}
+.titularnegro_EN {
+	font-size: 12px;
+	font-weight:normal;
+	color: gray;
+	text-decoration: none
+}
+.titularazul {
+	font-size: 11px;
+	font-weight: bold;
+	color: #006699;
+	text-decoration: none;
+}
+.titularazulderecha {
+	font-size: 11px;
+	font-weight: bold;
+	color: #006699;
+	text-decoration: none;
+	text-align:right;
+}
+.titularverdederecha {
+	font-size: 11px;
+	font-weight: bold;
+	color: #339933;
+	text-decoration: none;
+	text-align:right;
+}
+.txtboldrojo {
+	font-size: 13px;
+	font-weight: bold;
+	color: #CC0000;
+	text-decoration: none
+}
+.titularazulgrande {
+	font-size: 14px;
+	font-weight: bold;
+	color: #006699;
+	text-decoration: none
+}
+.titularazulgrande_EN {
+	font-size: 12px;
+	font-weight: bold;
+	color: gray;
+	text-decoration: none
+}
+.txtboldblanco {
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold
+}
+.txtsmallazul {
+	font-size: 9px;
+	font-weight: normal;
+	color: #006699;
+	text-decoration: none;
+}
+.txtsmallboldnegro {
+    font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.txtsmallboldnegroverde{
+    font-size: 11px;
+	font-weight: bold;
+	color: #339933;
+	text-decoration: none;
+}
+
+.txtsmallverde {
+	font-size: 9px;
+	font-weight: normal;
+	color: #339933;
+	text-decoration: none;
+}
+.txtsmallazul11 {
+	font-size: 11px;
+	font-weight: normal;
+	color: #006699;
+	text-decoration: none;
+}
+
+
+.pnlBotones
+{
+	position:relative;
+}
+
+/* */
+/* Fin añadido para el simulador */
+/* */
+   /* para tabletas*/
+@media screen and (max-width: 800px) {
+	h3{
+    font-size: 15px;
+    padding-bottom: 3px;
+	max-width:100%;}
+.container {
+	width: 760px;
+	background: #FFF;
+	margin: 0 auto; 
+}
+.footer-container {
+	width: 760px;
+	margin: 0 auto;
+	font-size: 12px; 
+}
+
+} /* para móvil*/
+@media screen and (max-width: 360px) {
+	h3{
+    font-size: 12px;
+    padding-bottom: 3px;
+	max-width:100%;}
+.container {
+	width: 300px;
+	background: #FFF;
+	margin: 0 auto; 
+}
+.footer-container {
+    color: #96a1a3;
+	width: 300px;
+	margin: 0 auto; 
+	font-size: 11px;
+}
+}

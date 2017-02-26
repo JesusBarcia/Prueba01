@@ -1,0 +1,237 @@
+.blue {  background-color: #FFFFFF;
+          text-decoration:none;
+          }
+INPUT.blue {
+	BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM-COLOR: #006699; BORDER-LEFT-COLOR: #006699; BORDER-RIGHT-COLOR: #006699; BORDER-TOP-COLOR: #006699; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 8pt
+}
+TEXTAREA.blue {
+	BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM-COLOR: #006699; BORDER-LEFT-COLOR: #006699; BORDER-RIGHT-COLOR: #99ccff; BORDER-TOP-COLOR: #006699; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 7.5pt
+}
+SELECT.blue{
+	BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM-COLOR: #006699; BORDER-LEFT-COLOR: #006699; BORDER-RIGHT-COLOR: #99ccff; BORDER-TOP-COLOR: #006699; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 7.5pt
+}
+
+SELECT.grey {
+	BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM-COLOR: #006699; BORDER-LEFT-COLOR: #006699; BORDER-RIGHT-COLOR: #006699; BORDER-TOP-COLOR: #006699; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 8pt
+}
+.txtverdanasmallderecha {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align:right;
+
+}
+.txtverdanasmallderechaverde {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #339933;
+	text-decoration: none;
+	text-align:right;
+}
+
+.txtverdanasmall {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #000000
+}
+.txtverdanasmallverde {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #339933
+}
+.txtsmallboldderecha {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	text-align: right;
+}
+.txtsmallboldderechaverde {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #3399333;
+	text-decoration: none;
+	text-align: right;
+}
+.txtsmallbold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+.txtsmallboldverde {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #339933;
+	text-decoration: none;
+}
+.titular {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #006699;
+}
+.titular_EN {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color:gray;
+}
+
+.titularazul {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #006699;
+	text-decoration: none;
+}
+.titularazulderecha {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #006699;
+	text-decoration: none;
+	text-align:right;
+}
+.titularverdederecha {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #339933;
+	text-decoration: none;
+	text-align:right;
+}
+A.txtsmallbold:hover {
+
+	COLOR: #FF0000; FONT-WEIGHT: bold;  TEXT-DECORATION: none
+
+}
+A.titularazul:hover {
+
+	COLOR: #006699; FONT-WEIGHT: bold;  TEXT-DECORATION: none
+
+}
+A.txtverdanasmall:hover {
+
+	COLOR: #006699; TEXT-DECORATION: none
+
+}
+.txtsmallboldamarillo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-weight: bold;
+	color: #FFCC33;
+	text-decoration: none
+}
+.titularnegro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none
+}
+.titularnegro_EN {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight:normal;
+	color: gray;
+	text-decoration: none
+}
+.txtsmallboldnegro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none
+}
+.txtboldrojo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #CC0000;
+	text-decoration: none
+}
+.titularazulgrande {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #006699;
+	text-decoration: none
+}
+.titularazulgrande_EN {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: gray;
+	text-decoration: none
+}
+.txtboldblanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold
+}
+
+.txtsmallazul {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-weight: normal;
+	color: #006699;
+	text-decoration: none;
+}
+.txtsmallverde {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-weight: normal;
+	color: #339933;
+	text-decoration: none;
+}
+.txtnormalazul {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #006699;
+	text-decoration: none;
+}
+.txtsmallblanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+A.txtboldblanco:hover {
+
+	COLOR: #FFFFFF; TEXT-DECORATION: underline ;font-weight: bold;
+
+}
+A.txtsmallazul:hover {
+
+	COLOR: #006699; TEXT-DECORATION: underline ;font-weight: normal;
+
+}
+A.titularazulgrande:hover {
+
+	COLOR: #006699; TEXT-DECORATION: underline ;font-weight: bold;
+
+}
+A.txtsmallboldnegro:hover {
+
+	COLOR: #006699; TEXT-DECORATION: none ;font-weight: bold;
+
+}
+.pnlBotones
+{
+	position:relative;
+}
+
